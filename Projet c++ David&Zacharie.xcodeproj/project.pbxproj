@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		91E3227E1E40D08F007F350D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91E3227D1E40D08F007F350D /* main.cpp */; };
+		91E322861E40D0BB007F350D /* Matrice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91E322841E40D0BB007F350D /* Matrice.cpp */; };
+		91E322891E40D110007F350D /* Edp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91E322871E40D110007F350D /* Edp.cpp */; };
+		91E3228C1E40D15D007F350D /* BlackScholes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91E3228A1E40D15D007F350D /* BlackScholes.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		91E3227A1E40D08F007F350D /* Projet c++ David&Zacharie */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Projet c++ David&Zacharie"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E3227D1E40D08F007F350D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		91E322841E40D0BB007F350D /* Matrice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrice.cpp; sourceTree = "<group>"; };
+		91E322851E40D0BB007F350D /* Matrice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Matrice.hpp; sourceTree = "<group>"; };
+		91E322871E40D110007F350D /* Edp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Edp.cpp; sourceTree = "<group>"; };
+		91E322881E40D110007F350D /* Edp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Edp.hpp; sourceTree = "<group>"; };
+		91E3228A1E40D15D007F350D /* BlackScholes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlackScholes.cpp; sourceTree = "<group>"; };
+		91E3228B1E40D15D007F350D /* BlackScholes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BlackScholes.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				91E3227D1E40D08F007F350D /* main.cpp */,
+				91E3228A1E40D15D007F350D /* BlackScholes.cpp */,
+				91E3228B1E40D15D007F350D /* BlackScholes.hpp */,
+				91E322871E40D110007F350D /* Edp.cpp */,
+				91E322881E40D110007F350D /* Edp.hpp */,
+				91E322841E40D0BB007F350D /* Matrice.cpp */,
+				91E322851E40D0BB007F350D /* Matrice.hpp */,
 			);
 			path = "Projet c++ David&Zacharie";
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E322891E40D110007F350D /* Edp.cpp in Sources */,
 				91E3227E1E40D08F007F350D /* main.cpp in Sources */,
+				91E322861E40D0BB007F350D /* Matrice.cpp in Sources */,
+				91E3228C1E40D15D007F350D /* BlackScholes.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
